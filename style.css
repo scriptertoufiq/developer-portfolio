@@ -17,6 +17,7 @@ h1 {
     background-image: url('images/top-banner.png');
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 50px;
 }
 
 .first-div {
@@ -25,11 +26,13 @@ h1 {
 }
 
 .seconed-div {
+
     width: 50%;
 }
 
 .seconed-div img {
-    width: 100%;
+    margin-left: 30px;
+    width: 80%;
 }
 
 .hire-button {
@@ -40,4 +43,34 @@ h1 {
     color: white;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+.dream-section {
+    display: flex;
+    margin-bottom: 50px;
+    background-image: url('images/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.dream-image {
+    width: 50%;
+}
+
+.dream-data {
+    width: 50%;
+}
+
+.resume-button {
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(orange, tomato);
+    font-weight: 700;
+    padding: 10px 30px;
+    border-radius: 5%;
+    text-transform: uppercase;
+}
+
+.dream-image img {
+    width: 80%;
 }
